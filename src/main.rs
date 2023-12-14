@@ -118,7 +118,7 @@ fn main() {
     }
 }
 
-
+#[allow(unused)]
 fn handle_connection(mut con: TcpStream) -> Result<()> {
     let mut request = vec![0u8; 1024];
 
